@@ -36,7 +36,7 @@ fun ProfilePage(){
             Image(painter = painterResource(id = R.drawable.dog),
                 contentDescription = "cute",
                 Modifier
-                    .size(180.dp)
+                    .size(100.dp)
                     .border(2.dp, Color.Red, CircleShape)
                     .clip(CircleShape))
             Text(text ="Cute Dog")
